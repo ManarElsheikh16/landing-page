@@ -1,0 +1,91 @@
+body{
+    background-color: #EEE;
+    text-align: center;
+    
+}
+#nav-bar{
+    position: fixed;
+    top:0px;
+    text-align: right;
+    background-color: #EEE;
+    width: 98%;
+}
+#nav-bar a{
+    text-decoration: none;
+    display:inline-block;/* 3mlt space but zy flaot right*/
+    width:130px;/* sab space between kol element w tany*/
+}
+#header-img{
+float:left;
+margin-left:25px;
+margin-top: 5px;
+}
+#form{
+    text-align: center;
+    margin-top: 20px;
+}
+#form label{
+    font-weight: bold;
+    font-size: 25px;
+}
+@media screen and(max-width:240px){
+.email{
+padding: 5px;
+}
+}
+#submit{
+    background-color:#F1C40F;
+    display: inline-flex;
+}
+#dis{
+    display: inline-block;
+}
+#large{
+    text-align: center;
+}
+.dive{
+    border:1px solid black;
+    padding:30px;
+    text-align: center;
+    margin:30px;
+    
+}
+#products{
+    display: inline-flex; 
+}
+.dive input{
+    background-color: #F1C40F;
+}
+.dive div{
+    background-color: #DDD;
+}
+#Premium{
+    margin-right:560px ;
+}
+#Materials{
+    margin-right:1px ;
+}
+
+#fast{
+    margin-right: 620px;
+}
+#Quality{
+    margin-right: 580px;
+}
+#shipping{
+ margin-left: 150px;
+}
+#Assurance{
+    margin-left: 150px;
+}
+.dive h1{
+    text-align: center;
+}
+footer{
+    background-color: #DDD;
+    
+}
+footer h3{
+    display: inline-block;
+    width:100px;
+}
